@@ -1,6 +1,7 @@
 # 📚 BookVerse 📖 | AI-Powered Reading Campion 
 
 Welcome to **BookVerse** — your go-to AI pal for choosing *what to read next*!  
+
 Whether you’re a **midnight reader**, a **weekend bookworm**, or just *someone pretending to read while scrolling memes* — this app is for you.
 
 ---

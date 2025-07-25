@@ -1,0 +1,150 @@
+body {
+  background: linear-gradient(to bottom right, #f8f8f8, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2d3436;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #6c5ce7;
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  background-color: #ffeaa7;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.navbar {
+  background-color: #6c5ce7 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color: #00b894;
+  border: none;
+}
+
+footer {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a:hover {
+  color: #fab1a0;
+}
+
+---------------Recommend---------------
+
+/* recommend.css */
+body {
+  background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(#6c5ce7, #00cec9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.recommend-form {
+  background-color: #fff9f0;
+  border: 2px solid #ffeaa7;
+}
+
+.recommendation-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.btn-primary {
+  background-color: #6c5ce7;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #4834d4;
+}
+
+.form-select {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Optional AOS Setup */
+[data-aos] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+-----Trending Page-------
+.card-title {
+  color: #6c5ce7;
+  font-size: 1rem;
+}
+
+.card-body {
+  background-color: #f1f2f6;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+  background-color: #ffeaa7;
+  color: #fab1a0
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+------- Contact -----------
+.contact-section {
+  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  border-top: 5px solid #0d6efd;
+}
+.contact-section h2 {
+  font-size: 2.2rem;
+}

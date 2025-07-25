@@ -27,6 +27,11 @@ A beautifully designed **book recommendation system** powered by **machine learn
 ---
 
 ## 📸 Sneak Peek
+### Home page
+<img width="1882" height="917" alt="image" src="https://github.com/user-attachments/assets/306db1ff-bd42-447a-b6b7-d20304a1c2a8" />
+
+### Recommendation Page
+<img width="1902" height="851" alt="image" src="https://github.com/user-attachments/assets/35d2fbdc-03ec-4026-b45a-92bd8f00fcdc" />
 
 > “Looks good enough to read twice.”
 

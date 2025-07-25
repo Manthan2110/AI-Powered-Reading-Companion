@@ -1,0 +1,50 @@
+{# templates/recommend.html #}
+{% extends "layout.html" %}
+{% block title %}📚 Book Recommender{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="text-center mb-5" data-aos="fade-down">
+    <h1 class="display-5 fw-bold text-gradient">🌟 Discover Your Next Favorite Book</h1>
+    <p class="text-muted fs-5">Powered by AI and reader trends – pick a title and get tailored recommendations instantly!</p>
+  </div>
+
+  <!-- Book Selection Form -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-md-6" data-aos="zoom-in">
+      <form action="/recommend_books" method="post" class="recommend-form shadow p-4 bg-light rounded">
+        <label for="user_input" class="form-label fw-semibold text-dark">Choose a Book Title</label>
+        <select name="user_input" id="user_input" class="form-select mb-3" required>
+          <option disabled selected>Select a book</option>
+          {% for book in book_name %}
+            <option value="{{ book }}">{{ book }}</option>
+          {% endfor %}
+        </select>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-4 py-2">🔍 Recommend</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Recommendations Section -->
+  {% if data %}
+  <div class="container mb-5">
+    <h3 class="text-center text-success mb-4" data-aos="fade-up">📖 Top Recommendations</h3>
+    <div class="row">
+      {% for i in data %}
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="{{ loop.index * 100 }}">
+        <div class="card h-100 border-0 shadow recommendation-card">
+          <img src="{{ i[2] }}" class="card-img-top" alt="Image not found">
+          <div class="card-body bg-warning-subtle text-center">
+            <h6 class="card-title fw-bold">{{ i[0] }}</h6>
+            <p class="card-text text-muted">by {{ i[1] }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

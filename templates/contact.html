@@ -1,0 +1,47 @@
+{# templates/contact.html #}
+{% extends "layout.html" %}
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+<section class="contact-section py-5" style="background: #f7f9fb;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">📞 Get in Touch</h2>
+      <p class="text-muted">We’d love to hear from you. Fill out the form below or connect via social media!</p>
+    </div>
+
+    <div class="row align-items-start">
+      <div class="col-md-6 mb-4">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/contact-us-3483311-2912018.png" class="img-fluid" alt="Contact Us Illustration">
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">👤 Name</label>
+            <input type="text" class="form-control shadow-sm" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">📧 Email address</label>
+            <input type="email" class="form-control shadow-sm" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">💬 Message</label>
+            <textarea class="form-control shadow-sm" rows="4" placeholder="Your message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-success w-100 fw-bold">📨 Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="text-center mt-5">
+      <h5 class="text-dark mb-3 fw-bold">🌐 Connect With Us</h5>
+      <a href="#" class="text-decoration-none me-3 fs-4 text-primary"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-decoration-none me-3 fs-4 text-info"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-decoration-none me-3 fs-4 text-danger"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-decoration-none me-3 fs-4 text-dark"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-decoration-none fs-4 text-danger"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -14,18 +14,6 @@ A beautifully designed **book recommendation system** powered by **machine learn
 
 ---
 
-## ✨ Features
-
-| 💡 Feature | 📋 Description |
-|------------|----------------|
-| 🔍 **Search Engine** | Lookup your favorite book title |
-| 📚 **Similar Book Finder** | Get ML-powered recommendations based on book similarity |
-| 🎨 **Modern UI** | Bright, aesthetic layout with hover animations |
-| 🌐 **Deployed on Render** | Access it live, anytime, anywhere |
-| 💾 **Pickle-Powered** | Uses a giant `.pkl` file (RIP GitHub file limit 😢) |
-
----
-
 ## 📸 Sneak Peek
 ### Home page
 <img width="1882" height="917" alt="image" src="https://github.com/user-attachments/assets/306db1ff-bd42-447a-b6b7-d20304a1c2a8" />
@@ -36,6 +24,17 @@ A beautifully designed **book recommendation system** powered by **machine learn
 > “Looks good enough to read twice.”
 
 
+---
+
+## ✨ Features
+
+| 💡 Feature | 📋 Description |
+|------------|----------------|
+| 🔍 **Search Engine** | Lookup your favorite book title |
+| 📚 **Similar Book Finder** | Get ML-powered recommendations based on book similarity |
+| 🎨 **Modern UI** | Bright, aesthetic layout with hover animations |
+| 🌐 **Deployed on Render** | Access it live, anytime, anywhere |
+| 💾 **Pickle-Powered** | Uses a giant `.pkl` file (RIP GitHub file limit 😢) |
 
 ---
 
